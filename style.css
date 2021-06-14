@@ -1,5 +1,6 @@
 #arena {
-  border: 1px solid red;
+  border: 10px solid red;
+  padding: 40px;
   
   display: flex;
   align-items: center;
@@ -11,6 +12,7 @@
 .vs {
   color: red;
   font-size: 40px;
+  align-self: center;
 }
 .maincontainter {
   display: flex;
@@ -20,4 +22,12 @@
 h1 {
   margin: 30px;
   text-align: center;
+}
+.buttonholder{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reset{
+  margin: 20px;
 }
