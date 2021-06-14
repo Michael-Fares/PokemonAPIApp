@@ -1,0 +1,23 @@
+#arena {
+  border: 1px solid red;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.pokemon {
+  font-size: 20px;
+}
+.vs {
+  color: red;
+  font-size: 40px;
+}
+.maincontainter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  margin: 30px;
+  text-align: center;
+}
