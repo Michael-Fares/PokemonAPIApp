@@ -13,6 +13,7 @@
   color: red;
   font-size: 40px;
   align-self: center;
+  position: absolute;
 }
 .maincontainter {
   display: flex;

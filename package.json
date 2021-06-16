@@ -1,0 +1,25 @@
+{
+  "name": "pokemonapiapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michael-Fares/PokemonAPIApp.git"
+  },
+  "author": "Michael Fares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Michael-Fares/PokemonAPIApp/issues"
+  },
+  "homepage": "https://github.com/Michael-Fares/PokemonAPIApp#readme",
+  "devDependencies": {
+    "mocha": "^9.0.0"
+  },
+  "dependencies": {
+    "jsdom": "^16.6.0"
+  }
+}

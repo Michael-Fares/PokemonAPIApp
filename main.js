@@ -1,3 +1,5 @@
+// FYI I moved my fetching funciton to a separate file called fetchtesting and included the tests for it below, because I could not get node to wotk with recognizing the DOM elements references in the code here.
+
 
 // intialize 2 random pokemon
 let poke1
@@ -119,3 +121,30 @@ const reset = () => {
 }
 
 
+// Unit Tests
+// to use them run the command: npm test main.js
+// to close them ctrl + C
+
+const assert = require('assert');
+
+if (typeof describe === 'function') {
+
+  describe('#getPokemon1()', () => {
+    it('should translate a simple word', () => {
+      assert.equal(getPokemon1(), 'arcay');
+      assert.equal(getPokemon1(), 'ogday');
+    });
+    it('should translate a complex word', () => {
+      assert.equal(getPokemon1(), 'eatecray');
+      assert.equal(getPokemon1(), 'alleyvay');
+    });
+    it('should attach "yay" if word begins with vowel', () => {
+      assert.equal(getPokemon1(), 'eggyay');
+      assert.equal(getPokemon1(), 'emissionyay');
+    });
+    it('should lowercase and trim word before translation', () => {
+      assert.equal(getPokemon1(), 'ellohay');
+      assert.equal(getPokemon1(), 'ocketray');
+    });
+  });
+}
